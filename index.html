@@ -130,8 +130,19 @@
 
         <section class="section hero has-bg-image" id="home" aria-label="home">
           <div class="container">
+            <div class="top-route">
+              <a href="#">Home</a>
+              <img src="./assets/images/icon/route.png" alt="" />
+
+              <a href="#">About</a>
+              <img src="./assets/images/icon/route.png" alt="" />
+
+              <a href="#">Company</a>
+            </div>
+          </div>
+          <div class="container">
             <figure class="hero-banner">
-              <div class="top-route">
+              <!-- <div class="top-route">
                 <a href="#">Home</a>
                 <img src="./assets/images/icon/route.png" alt="" />
 
@@ -139,7 +150,7 @@
                 <img src="./assets/images/icon/route.png" alt="" />
 
                 <a href="#">Company</a>
-              </div>
+              </div> -->
 
               <div>
                 <img
@@ -151,16 +162,6 @@
             </figure>
 
             <div class="hero-content">
-              <!-- <div class="top-route">
-                <a href="#">Home</a>
-                <img src="./assets/images/icon/route.png" alt="" />
-
-                <a href="#">About</a>
-                <img src="./assets/images/icon/route.png" alt="" />
-
-                <a href="#">Company</a>
-              </div> -->
-
               <h1 class="section-title">
                 More about
                 <span> our company </span>
@@ -396,15 +397,17 @@
                 <h2>Want to recieve our newsletter?</h2>
                 <img src="./assets/images/logo/logo.svg" alt="" />
               </div>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Your email"
-                required
-              />
+              <form action="">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your email"
+                  required
+                />
 
-              <button>Get all notifications</button>
+                <button type="submit">Get all notifications</button>
+              </form>
             </div>
             <hr class="styled-hr" />
 

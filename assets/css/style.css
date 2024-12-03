@@ -331,14 +331,14 @@ font-weight: 300;
   margin-block: 16px 20px;
 }
 
-.hero-content  .top-route{
+.hero .container  .top-route{
   overflow: hidden;
   display: flex;
   align-items: center;
   gap: 4px;
   margin-bottom: 44px;
 }
-.hero-content .top-route a {
+.hero .container  .top-route a {
   color: var(--Other-Additional-text, #7891a7);
   font-family: Roboto;
   font-size: 14px;
@@ -348,7 +348,7 @@ font-weight: 300;
   
 }
 
-.hero-content .top-route a:last-child {
+.hero .container  .top-route a:last-child {
   color: var(--eks-blue-50004-d-90, #004d90);
   font-family: Roboto;
   font-size: 14px;
@@ -492,7 +492,6 @@ font-weight: 300;
 
 .office-card .card-title {
   color: var(--eks-blue-10000559-f, #00559f);
-
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 300;
@@ -504,7 +503,6 @@ font-weight: 300;
 }
 .office-card .card-des {
   color: var(--Other-Additional-text, #7891a7);
-
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
@@ -595,6 +593,7 @@ font-weight: 300;
 .news .container .partner .partner-img img {
   max-width: 80px; 
   height: auto;
+  object-fit: contain;
 }
 
 .news .container .partner button {
@@ -663,7 +662,6 @@ font-weight: 300;
 .footer-link {
   transition: var(--transition-1);
   color: #fff;
-
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
@@ -694,7 +692,7 @@ font-weight: 300;
 }
 
 .footer-middle {
-  margin-top: 187px;
+  margin-top: 74px;
 }
 
 .footer-middle h2 {
@@ -706,6 +704,7 @@ font-weight: 300;
 }
 .footer-middle .container {
   flex-wrap: wrap;
+  flex-direction: column;
   display: flex;
   gap: 42.5px;
 }

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+
+    <!-- fav icon -->
+    <link rel="shortcut" href="./favicon.svg" type="image/svg+xml" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- #HEADER -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo/logo.svg"
+            width="162"
+            height="50"
+            alt="EKS logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo/logo.svg"
+                width="162"
+                height="50"
+                alt="EKS logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Platform</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#leaderships" class="navbar-link" data-nav-link
+                >Industries</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Careers</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="header-action-btn search-btn"
+            aria-label="toggle search"
+            title="Search"
+          >
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <!-- <div>
+            <a href="#" class="btnn">
+              <img src="./assets/images/icon/lan-Icon.svg" alt="" />
+            </a>
+          </div> -->
+
+          <a href="#" class="btn-1">
+            <img src="./assets/images/icon/lan-Icon.svg" alt="" />
+            <span class="span">Mne</span>
+
+            <!-- <ion-icon name="person-outline" aria-hidden="true"></ion-icon> -->
+          </a>
+          <a href="#" class="btn-2">
+            <img src="./assets/images/icon/Person-Icon.svg" alt="" />
+            <span class="span">Log in</span>
+
+            <!-- <ion-icon name="person-outline" aria-hidden="true"></ion-icon> -->
+          </a>
+
+          <button
+            class="header-action-btn"
+            aria-label="open menu"
+            data-nav-toggler
+          >
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero has-bg-image" id="home" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <div class="top-route">
+                <a href="#">Home</a>
+                <img src="./assets/images/icon/route.png" alt="" />
+
+                <a href="#">About</a>
+                <img src="./assets/images/icon/route.png" alt="" />
+
+                <a href="#">Company</a>
+              </div>
+
+              <h1 class="section-title">
+                More about our <br />
+                company
+              </h1>
+
+              <p class="hero-text">
+                Since 2007, we develop solutions that meet today’s <br />
+                industry needs and position you for future success.
+              </p>
+            </div>
+
+            <figure class="hero-banner">
+              <div>
+                <img
+                  src="./assets/images/home/home-img.png"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #Leadership
+      -->
+
+        <section
+          class="section leadership"
+          id="leaderships"
+          aria-label="leadership"
+        >
+          <div class="container">
+            <h2 class="h2 section-title">Leadership</h2>
+            <p class="section-subtitle">
+              Our leadership's innovative spirit ignites our inspiration and
+              propels us into the future.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="leadership-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./assets/images/leadership/person1-img.jpg"
+                      width="370"
+                      height="220"
+                      loading="lazy"
+                      alt="Holger Hämmerle"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Holger Hämmerle</a>
+                    </h3>
+                    <p class="card-des">General Manager</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="leadership-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./assets/images/leadership/person2-img.jpg"
+                      width="370"
+                      height="220"
+                      loading="lazy"
+                      alt="Heinrich Bolinger"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Heinrich Bolinger</a>
+                    </h3>
+                    <p class="card-des">General Manager</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="leadership-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./assets/images/leadership/person3-img.jpg"
+                      width="370"
+                      height="220"
+                      loading="lazy"
+                      alt="Christian Keller"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Christian Keller</a>
+                    </h3>
+                    <p class="card-des">General Manager</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #Leadership
+      -->
+
+        <section class="section office" id="offices" aria-label="office">
+          <div class="container">
+            <h2 class="h2 section-title">
+              Offices around <span>the world</span>
+            </h2>
+            <p class="section-subtitle">
+              Since our inception, we've experienced remarkable growth, and
+              we're just getting started.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="office-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./assets/images/offices/office1-img.png"
+                      width="370"
+                      height="220"
+                      loading="lazy"
+                      alt="Build Responsive Real- World Websites with HTML and CSS"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Germany, Weingarten </a>
+                    </h3>
+                    <p class="card-des">130 Employees</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="office-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./assets/images/offices/office2-img.png"
+                      width="370"
+                      height="220"
+                      loading="lazy"
+                      alt="Build Responsive Real- World Websites with HTML and CSS"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        Bosnia and Hercegovina, Tuzlas
+                      </a>
+                    </h3>
+                    <p class="card-des">25 Employees</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="office-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./assets/images/offices/office3-img.png"
+                      width="370"
+                      height="220"
+                      loading="lazy"
+                      alt="Build Responsive Real- World Websites with HTML and CSS"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title"> India, Pruna </a>
+                    </h3>
+                    <p class="card-des">10 Employees</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="office-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./assets/images/offices/office3-img.png"
+                      width="370"
+                      height="220"
+                      loading="lazy"
+                      alt="Build Responsive Real- World Websites with HTML and CSS"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title"> India, Pruna </a>
+                    </h3>
+                    <p class="card-des">10 Employees</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- news -->
+        <section class="section news">
+          <div class="container">
+            <hr class="styled-hr" />
+
+            <div class="input">
+              <div class="top-text">
+                <h2>Want to recieve our newsletter?</h2>
+                <img src="./assets/images/logo/logo.svg" alt="" />
+              </div>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email"
+                required
+              />
+
+              <button>Get all notifications</button>
+            </div>
+            <hr class="styled-hr" />
+
+            <div class="partner">
+              <h2>Partnerships</h2>
+
+              <div class="partner-img">
+                <img
+                  src="./assets/images/partnerships/Firmen-Logo1.png"
+                  alt=""
+                />
+                <img src="./assets/images/partnerships/ABB-logo-2.png" alt="" />
+                <img
+                  src="./assets/images/partnerships/KUKA-Logo-3.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-4.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-5.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-6.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-7.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-8.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-9.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-10.png"
+                  alt=""
+                />
+                <img
+                  class=""
+                  src="./assets/images/partnerships/logo-11.png"
+                  alt=""
+                />
+              </div>
+
+              <button>
+                Explore all partners
+                <img src="./assets/images/icon/Arrow-Icon.svg" alt="" />
+              </button>
+            </div>
+            <hr class="styled-hr" />
+
+            <div class="find">
+              <h2>Find us at</h2>
+
+              <div class="details">
+                <a href="#"> Danziger Straße 3, 88250 Weingarten, Germany </a>
+                <a href="#"> +49 (0) 751 3 62 16-0 </a>
+                <a href="#">info@eks-intec.de</a>
+                <a href="#"> www.eksin-tec.com </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-grid">
+            <ul class="footer-list">
+              <li><p class="footer-list-title">RF::SUITE</p></li>
+              <li><a href="#" class="footer-link">Virtual comissioning</a></li>
+              <li><a href="#" class="footer-link">Optimization</a></li>
+              <li><a href="#" class="footer-link">Monitoring</a></li>
+              <li><a href="#" class="footer-link">Education</a></li>
+            </ul>
+
+            <ul class="footer-list">
+              <li><p class="footer-list-title">Products</p></li>
+              <li><a href="#" class="footer-link">Main modules</a></li>
+              <li><a href="#" class="footer-link">PLC Connectors</a></li>
+              <li><a href="#" class="footer-link">Robot Connectors</a></li>
+              <li><a href="#" class="footer-link">Analysis tools</a></li>
+              <li><a href="#" class="footer-link">Sign In/Registration</a></li>
+              <li><a href="#" class="footer-link">Productivity tools</a></li>
+            </ul>
+            <ul class="footer-list">
+              <li><p class="footer-list-title">Services</p></li>
+              <li><a href="#" class="footer-link">Engineering services </a></li>
+              <li><a href="#" class="footer-link">Digital twin services</a></li>
+              <li>
+                <a href="#" class="footer-link">Building digital products</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li><p class="footer-list-title">Industries</p></li>
+              <li>
+                <a href="#" class="footer-link">Automotive manufacturing</a>
+              </li>
+              <li><a href="#" class="footer-link">Battery manufactoring</a></li>
+              <li><a href="#" class="footer-link">Telecomunications</a></li>
+              <li><a href="#" class="footer-link">Insurance</a></li>
+              <li><a href="#" class="footer-link">Financial technology</a></li>
+              <li><a href="#" class="footer-link">Transportation</a></li>
+              <li><a href="#" class="footer-link">ITSM solutions</a></li>
+            </ul>
+
+            <ul class="footer-list">
+              <li><p class="footer-list-title">Careers</p></li>
+              <li><a href="#" class="footer-link">Open positions</a></li>
+              <li><a href="#" class="footer-link">Benefits</a></li>
+            </ul>
+
+            <ul class="footer-list">
+              <li><p class="footer-list-title">About</p></li>
+              <li><a href="#" class="footer-link">Company</a></li>
+              <li><a href="#" class="footer-link">References</a></li>
+              <li><a href="#" class="footer-link">Research</a></li>
+              <li><a href="#" class="footer-link">Blog</a></li>
+              <li><a href="#" class="footer-link">Case studies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-middle">
+        <div class="container">
+          <h2>Offices around the globe</h2>
+
+          <div class="middle-content">
+            <div class="card">
+              <img src="./assets/images/glob/kina1.png" alt="" />
+              <h2>China, Shanghai</h2>
+            </div>
+            <div class="card">
+              <img src="./assets/images/glob/kina1.png" alt="" />
+              <h2>Germany, Weingarten</h2>
+            </div>
+            <div class="card">
+              <img src="./assets/images/glob/kina1.png" alt="" />
+              <h2>Bosnia, Tuzla</h2>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/glob/kina1.png" alt="" />
+              <h2>India, Bangalore</h2>
+            </div>
+            <div class="card">
+              <img src="./assets/images/glob/kina1.png" alt="" />
+              <h2>Montenegro, Podgorica</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="footer-bottom">
+        <div class="container">
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Legal notice</a></li>
+            <li><a href="#">Data protection policy</a></li>
+            <li><a href="#">Cookie preferences</a></li>
+          </ul>
+
+          <p class="copyright">
+            @ 2024 EKS INTec, Allrights reserved, Designed with care by
+
+            <a class="copyright-link" href="#">bildstudio</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- custom js -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

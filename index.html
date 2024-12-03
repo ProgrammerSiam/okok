@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
-  <body>
+  <body id="top">
     <!-- #HEADER -->
     <header class="header" data-header>
       <div class="container">
@@ -88,23 +88,25 @@
             <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
           </button>
 
-          <!-- <div>
-            <a href="#" class="btnn">
-              <img src="./assets/images/icon/lan-Icon.svg" alt="" />
-            </a>
-          </div> -->
+          <button
+            class="header-action-btn lang-btn"
+            aria-label="toggle language"
+            title="Language"
+          >
+            <ion-icon
+              class="lan"
+              name="globe-outline"
+              aria-hidden="true"
+            ></ion-icon>
+          </button>
 
           <a href="#" class="btn-1">
             <img src="./assets/images/icon/lan-Icon.svg" alt="" />
             <span class="span">Mne</span>
-
-            <!-- <ion-icon name="person-outline" aria-hidden="true"></ion-icon> -->
           </a>
           <a href="#" class="btn-2">
             <img src="./assets/images/icon/Person-Icon.svg" alt="" />
             <span class="span">Log in</span>
-
-            <!-- <ion-icon name="person-outline" aria-hidden="true"></ion-icon> -->
           </a>
 
           <button
@@ -128,7 +130,7 @@
 
         <section class="section hero has-bg-image" id="home" aria-label="home">
           <div class="container">
-            <div class="hero-content">
+            <figure class="hero-banner">
               <div class="top-route">
                 <a href="#">Home</a>
                 <img src="./assets/images/icon/route.png" alt="" />
@@ -139,18 +141,6 @@
                 <a href="#">Company</a>
               </div>
 
-              <h1 class="section-title">
-                More about our <br />
-                company
-              </h1>
-
-              <p class="hero-text">
-                Since 2007, we develop solutions that meet today’s <br />
-                industry needs and position you for future success.
-              </p>
-            </div>
-
-            <figure class="hero-banner">
               <div>
                 <img
                   src="./assets/images/home/home-img.png"
@@ -159,6 +149,28 @@
                 />
               </div>
             </figure>
+
+            <div class="hero-content">
+              <!-- <div class="top-route">
+                <a href="#">Home</a>
+                <img src="./assets/images/icon/route.png" alt="" />
+
+                <a href="#">About</a>
+                <img src="./assets/images/icon/route.png" alt="" />
+
+                <a href="#">Company</a>
+              </div> -->
+
+              <h1 class="section-title">
+                More about
+                <span> our company </span>
+              </h1>
+
+              <p class="hero-text">
+                Since 2007, we develop solutions that meet today’s industry
+                needs and position you for future success.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -255,7 +267,7 @@
         </section>
 
         <!-- 
-        - #Leadership
+        - #OFFICE
       -->
 
         <section class="section office" id="offices" aria-label="office">
@@ -374,7 +386,7 @@
           </div>
         </section>
 
-        <!-- news -->
+        <!-- #NEWS -->
         <section class="section news">
           <div class="container">
             <hr class="styled-hr" />
@@ -495,7 +507,7 @@
               <li><a href="#" class="footer-link">PLC Connectors</a></li>
               <li><a href="#" class="footer-link">Robot Connectors</a></li>
               <li><a href="#" class="footer-link">Analysis tools</a></li>
-              <li><a href="#" class="footer-link">Sign In/Registration</a></li>
+
               <li><a href="#" class="footer-link">Productivity tools</a></li>
             </ul>
             <ul class="footer-list">
@@ -513,6 +525,10 @@
                 <a href="#" class="footer-link">Automotive manufacturing</a>
               </li>
               <li><a href="#" class="footer-link">Battery manufactoring</a></li>
+
+              <li>
+                <a href="#" class="footer-link"> Aerospace engineering </a>
+              </li>
               <li><a href="#" class="footer-link">Telecomunications</a></li>
               <li><a href="#" class="footer-link">Insurance</a></li>
               <li><a href="#" class="footer-link">Financial technology</a></li>
@@ -587,6 +603,19 @@
         </div>
       </div>
     </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back top top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
 
     <!-- custom js -->
     <script src="./assets/js/script.js"></script>

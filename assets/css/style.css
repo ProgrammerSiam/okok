@@ -704,7 +704,7 @@ font-weight: 300;
 }
 .footer-middle .container {
   flex-wrap: wrap;
-  flex-direction: column;
+  /* flex-direction: column; */
   display: flex;
   gap: 42.5px;
 }
@@ -721,17 +721,7 @@ font-weight: 300;
   align-items: center;
   gap: 29px;
 }
-.footer-middle .middle-content .card {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 29px;
-}
-/* .middle-content .card:nth-child(2) {
-  padding: 24px 12px;
-  border-radius: 8px;
-  background: #0a66b6;
-} */
+
 
 .footer-middle .middle-content .card h2 {
   color: #fff;
